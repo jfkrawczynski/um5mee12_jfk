@@ -1,0 +1,60 @@
+---
+number-sections: false
+---
+
+# À propos {.unnumbered}
+
+Ce site héberge le matériel du cours de mesures pour la mécanique des fluides par PIV de l'unité d'enseignement **UM5MEE12 - Méthodes expérimentales et traitement des données** donnée au sein du [master sciences de l'ingénieur](https://masters-sdi.sorbonne-universite.fr/la-mention-mecanique) à l'[UFR d'Ingénierie](https://sciences.sorbonne-universite.fr/faculte/ufr-instituts-observatoires-ecoles/ufr-dingenierie) de [Sorbonne Université](https://www.sorbonne-universite.fr/). L'objectif est d'appréhender les concepts de base inhérents à la mesure du champ de vitesse en écoulement de fluides. 
+
+:::{.callout-note}
+Ce cours est en partie adapté de la [documentation](https://github.com/OpenPIV/openpiv-python) d'[OpenPIV](https://doi.org/10.5281/zenodo.4409178), sous licence GNU General Public License v2.0. 
+:::
+
+Le contenu du cours se divise en deux parties :
+
+- Les aspects théoriques du cours, notamment :
+  - les considérations physiques fondamentales liées aux particules traceurs de l'écoulement à mesurer
+  - l'algorithmique imaginée afin d'avoir accès au champ de vecteur vitesse à partir de l'analyse d'images de particules
+- Les aspects pratiques :
+  - une partie numérique pour davantage s'approprier les méthodes d'évaluation par PIV. Les images traitées seront générées synthétiquement
+  - une partie expérimentale afin d'appréhender les compromis à atteindre afin d'obtenir des images de qualité à traiter
+
+Dans ce cours, on utilisera principalement les outils suivants, avec lesquels les étudiants et étudiantes doivent être familiers :
+
+- [Python](https://www.python.org/)
+- [Numpy](https://numpy.org)
+- [Matplotlib](https://matplotlib.org)
+
+
+# Évaluation
+
+L'évaluation se fera sur la base d'un petit compte rendu de tp (pour la partie numérique) et d'un rapport de projet portant sur l'exploitation des données expérimentales obtenues lors des séances de tp. 
+
+# Calendrier
+
+Voici l'organisation prévisionnelle des séances :
+
+| Semaine | Date | Thème |
+| -------: | :---: | :----- |
+| 1 | 24/09/2025 | Introduction à la mesure du champ de vitesse par PIV, CM 1 |
+| 2 | 01/10/2025 | Algorithmique et spécificités expérimentales, TP 1 + TP 2 |
+| 3 | 08/10/2025 | Algorithmique et spécificités expérimentales, TP 1 + TP 2 |
+
+
+# Lectures et média recommandés
+
+Vous trouverez ci-dessous trouverez une liste de ressources utiles à votre projet, par thème
+
+#### Python pour la programmation scientifique
+
+- [Un Zeste de Python](https://zestedesavoir.com/tutoriels/2514/un-zeste-de-python/)
+- [Les bases de numpy et matplotlib](https://zestedesavoir.com/tutoriels/4139/les-bases-de-numpy-et-matplotlib/)
+- [From Python to Numpy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+- [Scientific Visualization: Python + Matplotlib](https://inria.hal.science/hal-03427242v1/file/scientific-visualization-python-matplotlib.pdf) [@rougierScientificVisualizationPython2021]
+
+
+#### Productions scientifiques : figures et rapports
+
+- [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable) [@rougierTenSimpleRules2014]
+- [Wikibook LaTeX](https://fr.wikibooks.org/wiki/LaTeX)
+- [Typst](https://typst.app/)

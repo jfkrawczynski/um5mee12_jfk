@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "um5mee12"
+  author: "JF Krawczynski"
+  date: "9/26/2025"
+  chapters:
+    - index.qmd
+    - part: "Numérique"
+      chapters:
+        - piv_basics.ipynb
+        - tutorial.ipynb
+        - advanced.ipynb
+    - part: "Pratique"
+      chapters:
+        - practice.ipynb
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
