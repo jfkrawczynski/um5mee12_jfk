@@ -270,6 +270,7 @@ window.Quarto = {
 
 
 <p>Using simple mathematical knowledge and existing algorithms written with Python, Numpy, Scipy, we will introduce the basics of PIV.</p>
+<p>All the images used can be found in the <a href="https://github.com/jfkrawczynski/um5mee12_jfk/tree/main/images">/images</a> directory of th</p>
 <section id="what-is-particle-image-velocimetry-piv-about" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="what-is-particle-image-velocimetry-piv-about"><span class="header-section-number">1.1</span> What is Particle Image Velocimetry (PIV) about?</h2>
 <p>“Particle” Image Velocimetry (PIV) is a non-intrusive state-of-the-art technique<a href="#fn1"><sup>1,</sup></a><a href="#fn2"><sup>2</sup></a> to get the velocity field of the flow being studied from images of small particles, called tracers.</p>
@@ -291,7 +292,7 @@ window.Quarto = {
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># import what is necessary from OpenPIV</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> openpiv <span class="im">import</span> tools, pyprocess, validation, filters, scaling</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<p>We have downloaded some sample images from a standard PIV images project, see http://www.pivchallenge.org/pub/#b</p>
+<p>We have downloaded some sample images from a standard PIV images project, see <a href="http://www.pivchallenge.org/pub/#b">pivchallenge</a></p>
 <div id="cell-5" class="cell" data-execution_count="23">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load the images</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> tools.imread(<span class="st">"./images/B005_1.tif"</span>)</span>
