@@ -118,7 +118,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./piv_basics.html">Numérique</a></li><li class="breadcrumb-item"><a href="./advanced.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Advanced PIV techniques</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./piv_basics.html">Numerical methods for PIV</a></li><li class="breadcrumb-item"><a href="./advanced.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Advanced PIV techniques</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -154,7 +154,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Numérique</span></a>
+ <span class="menu-text">Numerical methods for PIV</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -183,7 +183,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Pratique</span></a>
+ <span class="menu-text">Practicle work</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -223,13 +223,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#example-usage" id="toc-example-usage" class="nav-link" data-scroll-target="#example-usage"><span class="header-section-number">3.5.2</span> Example Usage</a></li>
   </ul></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">3.6</span> Conclusion</a></li>
+  <li><a href="#assignement" id="toc-assignement" class="nav-link" data-scroll-target="#assignement"><span class="header-section-number">3.7</span> Assignement</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./piv_basics.html">Numérique</a></li><li class="breadcrumb-item"><a href="./advanced.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Advanced PIV techniques</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./piv_basics.html">Numerical methods for PIV</a></li><li class="breadcrumb-item"><a href="./advanced.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Advanced PIV techniques</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Advanced PIV techniques</span></h1>
 </div>
@@ -436,6 +437,16 @@ B005_3 B005_4</code></pre>
 <section id="conclusion" class="level2" data-number="3.6">
 <h2 data-number="3.6" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">3.6</span> Conclusion</h2>
 <p>Advanced PIV techniques in OpenPIV provide powerful tools for improving accuracy and spatial resolution in PIV analysis. Window deformation and multi-pass processing address limitations of basic PIV analysis, while comprehensive validation methods ensure reliable vector fields. These techniques are particularly valuable for complex flows with high shear, rotation, or spatial gradients.</p>
+</section>
+<section id="assignement" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="assignement"><span class="header-section-number">3.7</span> Assignement</h2>
+<p>Now that your are familiar with the advanced PIV techniques, you will be asked to analyze some databases of a particular flow: a Lamb-Oseen vortex flow which is often used for validation due to its well-known analytical solutions. <a href="https://github.com/jfkrawczynski/um5mee12_jfk/tree/main/images/vortex">Synthetic images</a> are provided for different particle densities, referred as PPP (Particle Per Pixel).</p>
+<p>A <code>parameters.mat</code> is also provided. It provides the particle individual locations for each time step (30) in the x and y directions. This file is in a Matlab format but you can access its content as:</p>
+<div id="790228f8-6ade-4073-93df-ee1065725cea" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> scipy.io</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>mat <span class="op">=</span> scipy.io.loadmat(<span class="st">'parameters.mat'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Give an evaluation of the velocity vector fields for every test case. Give some insights about the PIV parameters used for the analyses. Evaluate the precision of your estimates with regards to the exact location of the particles as given in <code>parameters.mat</code>.</p>
 
 
 </section>
